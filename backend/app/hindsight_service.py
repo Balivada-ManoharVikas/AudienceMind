@@ -2,6 +2,10 @@ import os
 import logging
 from typing import List, Dict, Any, Optional
 from datetime import datetime
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 logger = logging.getLogger("AudienceMind.Hindsight")
 logging.basicConfig(level=logging.INFO)
